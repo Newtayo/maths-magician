@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 const getClassName = (btn) => {
   const className = {
     '=': 'opt',
-    '×': 'opt',
+    x: 'opt',
     '÷': 'opt',
     '-': 'opt',
     '+': 'opt',
@@ -13,12 +13,13 @@ const getClassName = (btn) => {
   return className[btn];
 };
 
-const Button = ({ value }) => (
+const Button = ({ value, handleClick }) => (
 
-  <button type="submit" className={`${getClassName(value)} btn`}>{value}</button>
+  <button type="submit" className={`${getClassName(value)} btn`} onClick={() => handleClick(value)}>{value}</button>
 );
 Button.propTypes = {
   value: PropTypes.node.isRequired,
+  handleClick: PropTypes.node.isRequired,
 
 };
 
