@@ -1,7 +1,12 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-const Screen = () => (
-  <div className="screen">0</div>
+const Screen = ({ input }) => (
+  <div className="screen">{input}</div>
 );
+Screen.propTypes = {
+  input: PropTypes.node.isRequired,
+
+};
 
 export default Screen;
