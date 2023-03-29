@@ -1,0 +1,10 @@
+.home {
+  display: flex;
+  flex-direction: column;
+}
+
+.homeText {
+  text-align: justify;
+  line-height: 1.2;
+  margin-top: 2rem;
+}

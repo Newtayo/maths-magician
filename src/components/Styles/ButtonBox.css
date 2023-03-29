@@ -1,0 +1,6 @@
+.display {
+  width: 20rem;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+}

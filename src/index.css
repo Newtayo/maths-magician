@@ -8,70 +8,13 @@ body {
   height: 100vh;
   background-color: white;
   display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.btn {
-  width: 2.5rem;
-  text-align: center;
-  height: 2rem;
-  font-size: 9px;
-  margin-bottom: 1px;
-}
-
-.zero {
-  flex: 2;
-}
-
-.opt {
-  background-color: #f5913e;
-  border: 1px solid black;
-}
-
-.display {
-  width: 10rem;
-  background-color: white;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.screen {
-  background-color: #696969;
-  width: 10rem;
-  height: 2rem;
-  color: #fff;
-  text-align: right;
-  padding-top: 4%;
-}
-
-.quotediv {
-  width: 50rem;
-  border: 2px solid black;
-  display: flex;
-  flex-direction: column;
-  height: 12rem;
-  margin-right: 0.5rem;
-  justify-content: center;
-  align-items: center;
-}
-
-.quotedisplay {
-  margin: auto 1rem auto 0;
-  display: flex;
-  flex-direction: column;
-  text-align: left;
 }
 
 .App {
   display: flex;
+  margin-top: 2%;
+  flex-direction: column;
   padding: 2%;
   align-items: center;
   justify-content: center;
-}
-
-.quoteHeader {
-  margin-top: 1rem;
-  text-align: left;
-  font-size: 1.5rem;
 }

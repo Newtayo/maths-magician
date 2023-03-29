@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Button from './Button';
 import Screen from './Screen';
 import calculate from '../logic/calculate';
+import './Styles/ButtonBox.css';
 
 const ButtonBox = () => {
   const [state, setState] = useState({
