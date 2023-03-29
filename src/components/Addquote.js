@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import './Styles/Addquote.css';
 
 const Addquote = () => {
   const [quote, setQuote] = useState([]);

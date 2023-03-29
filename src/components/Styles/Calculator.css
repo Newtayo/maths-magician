@@ -1,0 +1,10 @@
+.calcudisplay {
+  display: flex;
+  width: 100%;
+}
+
+.calculatorheader {
+  width: 50%;
+  text-align: left;
+  margin-right: 5%;
+}

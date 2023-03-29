@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import './Styles/Button.css';
 
 const getClassName = (btn) => {
   const className = {

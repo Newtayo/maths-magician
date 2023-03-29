@@ -1,0 +1,30 @@
+.navigation {
+  display: flex;
+  width: 100vw;
+  margin-bottom: 2%;
+}
+
+.maths {
+  flex: 4;
+  padding-left: 2rem;
+  font-size: 3rem;
+  color: black;
+  text-decoration: none;
+}
+
+.linkholder {
+  flex: 1;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  padding-right: 10rem;
+  align-items: center;
+}
+
+.calculator {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
