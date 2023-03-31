@@ -120,7 +120,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 > Link to deployed project.
 
-- [Live Demo Link](<a href="">Live Demo</a>)
+- [Live Demo Link](<a href="https://maths-magician-9trt.onrender.com/">Live Demo</a>)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
