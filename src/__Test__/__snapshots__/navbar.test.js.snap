@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<DocumentFragment>
+  <div>
+    <nav
+      class="navigation"
+      data-testid="navbar"
+    >
+      <a
+        class="maths"
+        href="/"
+      >
+         Maths Magicians
+      </a>
+      <ul
+        class="linkholder"
+      >
+        <a
+          class="home"
+          href="/"
+        >
+           Home
+        </a>
+        <a
+          class="calculator"
+          href="calculator"
+        >
+           Calculator
+        </a>
+        <a
+          class="quote"
+          href="addquote"
+        >
+           Quote
+        </a>
+      </ul>
+    </nav>
+  </div>
+</DocumentFragment>
+`;

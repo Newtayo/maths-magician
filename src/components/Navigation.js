@@ -3,7 +3,7 @@ import './Styles/Navigation.css';
 
 const Navigation = () => (
   <div>
-    <nav className="navigation">
+    <nav className="navigation" data-testid="navbar">
 
       <a className="maths" href="/"> Maths Magicians</a>
       <ul className="linkholder">

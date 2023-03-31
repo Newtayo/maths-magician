@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import './Styles/Screen.css';
 
 const Screen = ({ input }) => (
-  <div className="screen">{input}</div>
+  <div className="screen" data-testid="screen">{input}</div>
 );
 Screen.propTypes = {
   input: PropTypes.node.isRequired,
